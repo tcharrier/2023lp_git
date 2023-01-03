@@ -1,0 +1,12 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureStaticWebApp@0
+  inputs:
+    app_location: '/'
+    api_location: 'api'
+    azure_static_web_apps_api_token: c5781b6d25c63761c065b4e3ac7e58760a539d1c9f207de9a53d4044b73eb2c82-780675ec-5e55-4d76-8d8f-316290d4fbcf010160261
