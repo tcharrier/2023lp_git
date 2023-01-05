@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: none
+trigger: 
+- wonderfull_island  
 
 pool:
   vmImage: ubuntu-latest
@@ -10,4 +11,4 @@ steps:
   inputs:
     app_location: '/'
     api_location: 'api'
-    azure_static_web_apps_api_token: xxx
+    azure_static_web_apps_api_token: eecf9bb34ba251ea0349725bcc03f9e40886c028a1e5fa6b93a9bc5d7b6b4cb52-a30269c9-7b33-4166-8a41-0561f7db44e6010160258
