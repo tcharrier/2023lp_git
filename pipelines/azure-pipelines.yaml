@@ -1,6 +1,6 @@
 name: Static-Web-App-Deploy
 
-trigger: none
+trigger: florent
 
 pool:
   vmImage: ubuntu-latest
@@ -10,4 +10,4 @@ steps:
   inputs:
     app_location: '/'
     api_location: 'api'
-    azure_static_web_apps_api_token: xxx
+    azure_static_web_apps_api_token: 5ab5ee3db9d2fb6743d37338caccc17fbaee6c4ed35248b79eb20f45625ac8022-edcd4784-1b3f-49f6-9955-f5cfab314e59010160255
