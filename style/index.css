@@ -1,14 +1,23 @@
-body{
+body {
     background: url("../image/backgrand.jpg");
-    background-repeat: initial;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.contenu{
+.contenu {
     background-color: white;
     text-align: center;
     color: blue;
     width: 40%;
     height: 20%;
-    margin-top: 50px;
-    margin-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1{
+    background: url("https://i.gifer.com/USZm.gif");
+   
 }
