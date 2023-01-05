@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: none
+trigger: 
+- mgPage
 
 pool:
   vmImage: ubuntu-latest
