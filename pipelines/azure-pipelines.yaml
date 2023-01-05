@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: arthur
+trigger: 
+- arthur
 
 pool:
   vmImage: ubuntu-latest
