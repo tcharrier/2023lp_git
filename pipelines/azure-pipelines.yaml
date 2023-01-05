@@ -10,4 +10,4 @@ steps:
   inputs:
     app_location: '/'
     api_location: 'api'
-    azure_static_web_apps_api_token: xxx
+    azure_static_web_apps_api_token: b5996c7722f2f6462e637e3f96d3d3aabcb7238e06f350002ed9978148a82dbd2-97d449b0-9c19-4c15-b245-e6f48f0a7b86010160257
