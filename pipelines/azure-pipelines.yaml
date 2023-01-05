@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: none
+trigger: 
+-FeatureLucas
 
 pool:
   vmImage: ubuntu-latest
@@ -10,4 +11,4 @@ steps:
   inputs:
     app_location: '/'
     api_location: 'api'
-    azure_static_web_apps_api_token: xxx
+    azure_static_web_apps_api_token: 6f0891a73b9df22b91d898fcbd963a8103a2ca6e2dd269a3a9d9774b9a5947e32-6fafe5e5-2872-4a90-a54a-7cf1748af86c010160249
