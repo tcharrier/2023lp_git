@@ -1,6 +1,6 @@
 name: Static-Web-App-Deploy
 
-trigger: none
+trigger: https://calm-ocean-065e35f10.2.azurestaticapps.net/
 
 pool:
   vmImage: ubuntu-latest
