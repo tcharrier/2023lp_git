@@ -11,4 +11,4 @@ steps:
   inputs:
     app_location: '/'
     api_location: 'api'
-    azure_static_web_apps_api_token: 7e422ea66c4de8b59f378f769daf9bd855d4acd0e089f9c1ddf41175640295582-82052ec3-6f62-414b-8fbf-6c14b6f0afa6010160251
+    azure_static_web_apps_api_token: 1b3839361ea5b495b4f4acfe4dcddb69dd27c08f2ab9386f1c253bae3f758cca2-a7740e26-5745-4755-97e4-85f9e359e055010160250
