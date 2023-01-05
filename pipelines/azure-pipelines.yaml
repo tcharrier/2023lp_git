@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: florent
+trigger: 
+- florent
 
 pool:
   vmImage: ubuntu-latest
