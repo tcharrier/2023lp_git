@@ -1,6 +1,7 @@
 name: Static-Web-App-Deploy
 
-trigger: https://calm-ocean-065e35f10.2.azurestaticapps.net/
+trigger:
+- FeatureErwan
 
 pool:
   vmImage: ubuntu-latest
